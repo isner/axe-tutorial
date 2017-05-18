@@ -1,0 +1,51 @@
+
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+.reveal .slides {
+  /*margin: 0;*/
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.reveal section.title-slide div.left {
+  float: left;
+  max-width: 30%;
+}
+
+.reveal section.title-slide div.right {
+  float: right;
+  margin-right: 1em;
+  text-align: right;
+  max-width: 70%;
+}
+
+.reveal section.title-slide img.logo {
+  display: block;
+  border: none;
+}
+
+.reveal section.title-slide h1 {
+  font-size: 2em;
+  text-transform: none;
+}
+
+.reveal .progress {
+  height: 2%;
+}
+
+.reveal section h1, h2, h3, h4, h5, h6 {
+  text-transform: none;
+}
+
+.reveal section h1 {
+  font-size: 1.5em;
+}
+
+.reveal section h2 {
+  font-size: 1.2em;
+}
+
+.reveal section pre {
+  width: 50%;
+  font-size: .8em;
+  box-shadow: none;
+}

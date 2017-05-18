@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction to aXe</title>
+
+		<meta name="description" content="Slides for 'Introduction to aXe' presentation by Deque Systems">
+		<meta name="author" content="Matt Isner, Marcy Sutton">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/theme/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="plugin/accessibility/helper.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="title-slide">
+					<div class="left">
+						<img class="logo" src="img/deque-logo.png" alt="Deque logo" />
+					</div>
+					<div class="right">
+						<h1>Introduction to aXe</h1>
+						<p>
+							<span>Matt Isner, Deque Systems</span>
+						</p>
+					</div>
+				</section>
+				<section>
+					<h1>Accessibility Debugging Basics</h1>
+					<ul>
+						<li>Test with the keyboard</li>
+						<li>Use aXe browser extensions</li>
+						<li>Expose all UI and test again</li>
+						<li>Check headings and landmark structure</li>
+					</ul>
+				</section>
+				<section>
+					<h1>aXe Extension for Chrome</h1>
+					<p>
+						<a href="http://bit.ly/axe-chrome">bit.ly/axe-chrome</a>
+					</p>
+					<img src="img/axe-chrome.png" alt="aXe extension page on the Chrome web store" />
+				</section>
+				<section>
+					<h1>aXe Extension for Firefox</h1>
+					<p>
+						<a href="http://bit.ly/axe-firefox">bit.ly/axe-firefox</a>
+					</p>
+					<img src="img/axe-firefox.png" alt="aXe extension page on the Firefox addon store" />
+				</section>
+				<section>
+					<h1>aXe Extension Demo</h1>
+					<p>
+						<a href="https://dequeuniversity.com/demo/mars">dequeuniversity.com/demo/mars</a>
+					</p>
+					<img src="img/mars-commuter.png" alt="Deque University Mars Commuter webpage" />
+				</section>
+				<section>
+					<h1>aXe-core JavaScript API</h1>
+					<p>
+						<a href="https://github.com/dequelabs/axe-core">github.com/dequelabs/axe-core</a>
+					</p>
+					<img src="img/axe-core.png" alt="aXe-core Github page" />
+				</section>
+				<section>
+					<h1>Helpful Links</h1>
+					<ul>
+						<li>
+							<a href="https://github.com/dequelabs/axe-core/blob/master/doc/rule-descriptions.md">Rule descriptions</a>
+						</li>
+						<li>
+							<a href="https://github.com/dequelabs/axe-core/blob/master/doc/API.md">API documentation</a>
+						</li>
+						<li>
+							<a href="https://github.com/dequelabs/axe-core/blob/master/CONTRIBUTING.md">Contributing guidelines</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Things you'll need</h1>
+					<ul>
+						<li>A terminal</li>
+						<li><a href="https://nodejs.org/en/">Node.js and npm</a></li>
+						<li>Git and a Github account (optional)</li>
+						<li>A page to test</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Unit Test Demo</h1>
+					<p>
+						<a href="https://github.com/isner/axe-mocha-unit">github.com/isner/axe-mocha-unit</a>
+					</p>
+				</section>
+				<section>
+					<h1>aXe-WebdriverJS Utility</h1>
+					<p>
+						<a href="https://github.com/dequelabs/axe-webdriverjs">github.com/dequelabs/axe-webdriverjs</a>
+					</p>
+					<img src="img/axe-webdriverjs.png" alt="aXe WebdriverJS Github page" />
+				</section>
+				<section>
+					<h1>Installing Drivers</h1>
+					<p>
+						<a href="http://www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/">www.kenst.com/2015/03/installing-chromedriver-on-mac-osx/</a>
+					</p>
+				</section>
+				<section>
+					<h1>Integration Test Demo</h1>
+					<p>
+						<a href="https://github.com/marcysutton/axe-webdriverjs-demo">github.com/marcysutton/axe-webdriverjs-demo</a>
+					</p>
+				</section>
+				<section>
+					<h1>aXe-CLI</h1>
+					<p>
+						<a href="https://github.com/dequelabs/axe-cli">github.com/dequelabs/axe-cli</a>
+					</p>
+					<img src="img/axe-cli.png" alt="aXe CLI Github page" />
+				</section>
+				<section>
+					<h1>Install and run aXe CLI</h1>
+					<pre>
+						<code class="bash">
+  $ npm install axe-cli -g
+  $ axe https://google.com
+						</code>
+					</pre>
+					<p>
+						Stuck on sudo? <a href="https://docs.npmjs.com/getting-started/fixing-npm-permissions">Fixing npm permissions</a>
+					</p>
+				</section>
+				<section>
+					<h1>Happy GAAD!</h1>
+					<p>
+						<span>matthew.isner@deque.com</span>
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: '100%',
+				margin: 0,
+				progress: true,
+				transition: 'none',
+				viewDistance: 1,
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/accessibility/helper.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
