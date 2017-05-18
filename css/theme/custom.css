@@ -6,6 +6,10 @@
   font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
+.reveal section a {
+  /*text-decoration: underline;*/
+}
+
 .reveal section.title-slide div.left {
   float: left;
   max-width: 30%;
